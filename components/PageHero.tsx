@@ -1,0 +1,1 @@
+export default function PageHero({kicker,title,text,image}:{kicker:string,title:string,text:string,image?:string}){return <section className="page-hero"><div className="container page-hero-inner"><div><div className="section-kicker">{kicker}</div><h1>{title}</h1><p>{text}</p></div>{image&&<div className="page-hero-image"><img src={image} alt=""/></div>}</div></section>}
