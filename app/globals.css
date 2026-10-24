@@ -167,7 +167,6 @@ img {
 }
 
 .brand-name small {
-  margin-top: 4px;
   color: var(--red);
   font-size: 15px;
   font-weight: 800;
@@ -308,7 +307,7 @@ img {
 
 .hero-home {
   position: relative;
-  min-height: 570px;
+  min-height: 420px;
   overflow: hidden;
   color: #fff;
   background: var(--green);
@@ -361,7 +360,7 @@ img {
 .hero-content {
   position: relative;
   z-index: 2;
-  min-height: 570px;
+  min-height: 420px;
 
   display: flex;
   align-items: center;
@@ -2596,3 +2595,4 @@ img {
     font-size: 12px;
   }
 }
+

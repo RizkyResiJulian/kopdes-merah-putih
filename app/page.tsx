@@ -35,7 +35,7 @@ export default function Home() {
       <section className="hero-home">
         <div className="hero-bg">
           <Image
-            src="/images/hero/kantor-contoh.png"
+            src="/images/about/kdkmp-karangwangi.png"
             alt="Contoh kantor KOPDES Merah Putih"
             fill
             priority
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="container hero-content">
           <div className="hero-copy">
             <div className="hero-pill">
-              KOPERASI DESA / KELURAHAN MERAH PUTIH
+              KOPERASI DESA / KELURAHAN MERAH PUTIH KARANGWANGI
             </div>
 
             <h1>

@@ -24,19 +24,19 @@ export const site = {
  */
 export const stats = [
   {
-    value: "1.234",
-    label: "Anggota Aktif",
+    value: "3.700+",
+    label: "Warga Desa",
   },
   {
     value: "4",
     label: "Unit Usaha",
   },
   {
-    value: "250+",
+    value: "100+",
     label: "Produk Tersedia",
   },
   {
-    value: "Rp1,2 M+",
+    value: "Rp -",
     label: "Volume Usaha / Bulan",
   },
 ];
@@ -52,17 +52,17 @@ export const units = [
     description:
       "Gerai Ritel menjadi pusat pemenuhan kebutuhan masyarakat sekaligus etalase produk anggota dan UMKM desa.",
     icon: "store",
-    image: "/images/units/gerai-ritel.png",
+    image: "/images/units/gerai-ritel.webp",
   },
 
   {
-    slug: "layanan-keuangan",
-    title: "Layanan Keuangan",
-    short: "Simpan, pembayaran, dan layanan keuangan anggota.",
+    slug: "simpan-pinjam",
+    title: "Simpan Pinjam",
+    short: "Layanan Simpan Pinjam. (Segera Tersedia)",
     description:
-      "Layanan keuangan dirancang untuk mendukung kebutuhan ekonomi anggota dengan tata kelola yang tertib sesuai ketentuan koperasi.",
+      "Layanan simpan pinjam dirancang untuk mendukung kebutuhan ekonomi anggota dengan tata kelola yang tertib sesuai ketentuan koperasi.",
     icon: "wallet",
-    image: "/images/units/keuangan.png",
+    image: "/images/units/keuangan.jpg",
   },
 
   {
@@ -72,17 +72,17 @@ export const units = [
     description:
       "KDKMP membantu mengembangkan, mengkurasi, dan memasarkan produk lokal agar memiliki nilai tambah dan akses pasar.",
     icon: "package",
-    image: "/images/units/produk-lokal.png",
+    image: "/images/units/umkm.webp",
   },
 
   {
-    slug: "distribusi-kemitraan",
-    title: "Distribusi & Kemitraan",
-    short: "Menghubungkan desa dengan pasar dan mitra usaha.",
+    slug: "distribusi-subsidi",
+    title: "Distribusi Subsidi",
+    short: "Penyaluran barang subsidi agar lebih tepat sasaran.",
     description:
-      "Unit distribusi dan kemitraan menghubungkan potensi desa dengan supplier, buyer, lembaga, dan mitra usaha.",
+      "Unit distribusi subsidi LPG 3Kg, Beras SPHP 5Kg, Minyak Kitas 1L, Pupuk Subsidi kepada masyarakat desa agar lebih tepat sasaran dan di nikmati oleh seluruh masyarakat.",
     icon: "truck",
-    image: "/images/units/distribusi.png",
+    image: "/images/units/sphp.webp",
   },
 ];
 

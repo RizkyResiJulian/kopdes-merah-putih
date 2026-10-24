@@ -13,7 +13,7 @@ export default function Navbar(){
  return <header className="navbar"><div className="nav-inner">
   <a className="brand" href="/" onClick={()=>setOpen(false)}>
    <img className="brand-logo" src="/images/brand/logo-kopdes.png" alt="Logo KOPDES Merah Putih"/>
-   <span className="brand-name"><strong>Koperasi Desa/Kelurahan</strong><small>Merah Putih</small></span>
+   <span className="brand-name"><strong>Koperasi Desa/Kelurahan</strong><small>Merah Putih</small><strong>Karangwangi</strong></span>
   </a>
   <nav className={"nav-links "+(open?"open":"")}>
    {links.map(([label,href])=><a key={href} href={href} onClick={()=>setOpen(false)}>{label}{label==="Unit Usaha"&&<ChevronDown size={1}/>}</a>)}
