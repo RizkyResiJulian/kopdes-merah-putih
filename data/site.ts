@@ -16,7 +16,7 @@ export const site = {
 
   partnershipEmail: "kemitraan@kdkmp-merahputih.id",
 
-  whatsapp: "https://wa.me/6289655591884",
+  whatsapp: "https://wa.me/",
 };
 
 /**
